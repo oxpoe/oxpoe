@@ -18,7 +18,7 @@ jobs:
         with:
           github_user_name: oxpoe
           outputs: |
-            dist/snake.svg?palette=github-dark
+            dist/snake.svg?palette=github-dark&color_snake=%23c77dff&color_dots=%23161022,%232a1152,%236b3fa0,%237cffcb,%23c77dff
             dist/snake.gif?palette=github-dark
       - uses: crazy-max/ghaction-github-pages@v4
         with:

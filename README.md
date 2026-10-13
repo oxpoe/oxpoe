@@ -1,63 +1,81 @@
 <div align="center">
 
-<a href="https://github.com/oxpoe/Gamemax-linux-apps">
-  <img src="https://raw.githubusercontent.com/oxpoe/Gamemax-linux-apps/main/assets/social-preview.png" alt="GAMEMAX LCD — Linux bridge" width="100%">
-</a>
+<img src="assets/surreal-banner.png" width="100%" alt="oxpoe — surrealist by design">
 
-<a href="https://github.com/oxpoe">
-  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans&weight=700&size=28&pause=1200&color=DEF750&center=true&vCenter=true&width=760&lines=Linux+%E2%86%94+hardware+tinkering;Reverse+engineering+for+interoperability;Making+Windows-only+devices+work+on+Linux" alt="oxpoe">
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans&weight=700&size=24&pause=1100&color=C77DFF&center=true&vCenter=true&width=740&lines=dreaming+in+packets;networking+%C2%B7+linux+%C2%B7+open+source+%C2%B7+self-hosted;Go+%C2%B7+Python+%C2%B7+SvelteKit;melting+the+boundary+between+their+cloud+and+my+box" alt="typing">
 
 <p>
-  <a href="https://github.com/oxpoe/Gamemax-linux-apps/releases/latest"><img alt="release" src="https://img.shields.io/github/v/release/oxpoe/Gamemax-linux-apps?color=def750&label=GAMEMAX%20LCD&style=for-the-badge"></a>
-  <a href="https://github.com/oxpoe/Gamemax-linux-apps/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-def750?style=for-the-badge"></a>
-  <a href="https://donasi.oxpoe.qzz.io/"><img alt="donate" src="https://img.shields.io/badge/%E2%9D%A4-donate-def750?style=for-the-badge"></a>
-</p>
-
-<p>
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-141614?style=flat-square&logo=linux&logoColor=def750">
-  <img alt="Python" src="https://img.shields.io/badge/Python-141614?style=flat-square&logo=python&logoColor=def750">
-  <img alt="Qt / PySide6" src="https://img.shields.io/badge/PySide6-141614?style=flat-square&logo=qt&logoColor=def750">
-  <img alt="systemd" src="https://img.shields.io/badge/systemd-141614?style=flat-square&logo=systemd&logoColor=def750">
-  <img alt="Ghidra" src="https://img.shields.io/badge/Ghidra-141614?style=flat-square&logo=ghidra&logoColor=def750">
-  <img alt="Git" src="https://img.shields.io/badge/Git-141614?style=flat-square&logo=git&logoColor=def750">
+  <a href="https://go.dev"><img alt="Go" src="https://img.shields.io/badge/Go-0f0a1a?style=for-the-badge&logo=go&logoColor=7cffcb"></a>
+  <a href="https://python.org"><img alt="Python" src="https://img.shields.io/badge/Python-0f0a1a?style=for-the-badge&logo=python&logoColor=c77dff"></a>
+  <a href="https://kit.svelte.dev"><img alt="SvelteKit" src="https://img.shields.io/badge/SvelteKit-0f0a1a?style=for-the-badge&logo=svelte&logoColor=ff6ec7"></a>
+  <a href="https://kernel.org"><img alt="Linux" src="https://img.shields.io/badge/Linux-0f0a1a?style=for-the-badge&logo=linux&logoColor=7cffcb"></a>
+  <a href="#-the-dream"><img alt="self-hosted" src="https://img.shields.io/badge/self--hosted-0f0a1a?style=for-the-badge&logo=homeassistant&logoColor=c77dff"></a>
+  <a href="https://opensource.org/osd"><img alt="open source" src="https://img.shields.io/badge/open%20source-0f0a1a?style=for-the-badge&logo=opensourceinitiative&logoColor=ff6ec7"></a>
 </p>
 
 </div>
 
----
+<img src="assets/divider.png" width="100%">
 
-## ★ Featured — GAMEMAX LCD
+### 🌌 The dream
 
-An AIO cooler whose LCD panel only spoke to a Windows application. I reverse engineered the
-panel's HID protocol from that app and rebuilt the useful part for Linux: a dependency-free
-sender that streams the exact 65-byte report the firmware reads, plus an animated PySide6
-tray app with fan/temperature channel pickers, systemd autostart and plug & play. AppImage
-built by CI.
+I like the places where **networks**, **Linux** and **self-hosting** blur into each other:
+a packet takes a strange route home, a service that used to live in someone else's cloud
+moves onto a box under the desk, a device that only spoke Windows learns a new language.
 
-[**Repository**](https://github.com/oxpoe/Gamemax-linux-apps) · [**Releases**](https://github.com/oxpoe/Gamemax-linux-apps/releases) · [**Reverse-engineering notes**](https://github.com/oxpoe/Gamemax-linux-apps/blob/main/docs/reverse-engineering.md)
+Surrealism is my way of thinking about systems — surprise, dream logic, and the freedom to
+rearrange what everyone assumed was fixed.
 
-## How I work
+### 🌀 What I get lost in
 
-- **Reverse engineering for interoperability** — read the shipped binaries, map the protocol, keep the evidence
-- **Use what the platform already gives you** — `hidraw`, `hwmon`, `systemd`; no dependencies where it counts
-- **Say what was verified** — on real hardware, and which limits belong to the firmware
+| | |
+|---|---|
+| **networking** | routing, tunnels, DNS, wire-format archaeology, watching packets drift |
+| **self-hosted** | services that answer to nobody but their owner |
+| **linux** | `hidraw`, `systemd`, `hwmon` — the small interfaces everything else stands on |
+| **open source** | reading the code, fixing upstream, giving the fix back |
+
+### 🛠 The stack I reach for
+
+- **Go** — daemons, network plumbing, small binaries that stay small
+- **Python** — protocol work and tooling; the honest little script that just works
+- **SvelteKit** — light interfaces for the services I self-host
+
+<img src="assets/divider2.png" width="100%">
+
+### ★ Featured project — GAMEMAX LCD
+
+A cooler's LCD panel that only spoke to a Windows application. I reverse engineered the
+panel's HID protocol from that app and rebuilt the useful half for Linux: a
+dependency-free sender streaming the exact 65-byte report the firmware reads, plus an
+animated tray app with fan/temperature pickers, systemd autostart and plug & play.
+
+<a href="https://github.com/oxpoe/Gamemax-linux-apps">
+  <img src="https://raw.githubusercontent.com/oxpoe/Gamemax-linux-apps/main/assets/social-preview.png" alt="GAMEMAX LCD" width="100%">
+</a>
+
+[**Repository**](https://github.com/oxpoe/Gamemax-linux-apps) ·
+[**Releases**](https://github.com/oxpoe/Gamemax-linux-apps/releases) ·
+[**Reverse-engineering notes**](https://github.com/oxpoe/Gamemax-linux-apps/blob/main/docs/reverse-engineering.md)
 
 <div align="center">
 
 <a href="https://github.com/oxpoe">
-  <img height="160" alt="stats" src="https://github-readme-stats.vercel.app/api?username=oxpoe&show_icons=true&hide_border=true&bg_color=141614&title_color=def750&icon_color=def750&text_color=e8ece8&include_all_commits=true&rank_icon=github">
+  <img height="160" alt="stats" src="https://github-readme-stats.vercel.app/api?username=oxpoe&show_icons=true&hide_border=true&bg_color=0f0a1a&title_color=c77dff&icon_color=7cffcb&text_color=ece6ff&include_all_commits=true&rank_icon=github">
 </a>
 <a href="https://github.com/oxpoe">
-  <img height="160" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oxpoe&layout=compact&hide_border=true&bg_color=141614&title_color=def750&text_color=e8ece8&langs_count=6">
+  <img height="160" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oxpoe&layout=compact&hide_border=true&bg_color=0f0a1a&title_color=c77dff&text_color=ece6ff&langs_count=6">
 </a>
 
 <a href="https://github.com/oxpoe">
-  <img alt="streak" src="https://streak-stats.demolab.com?user=oxpoe&hide_border=true&background=141614&stroke=2a2e2a&ring=def750&fire=def750&currStreakLabel=def750&sideLabels=e8ece8&dates=a9b0a9&currStreakNum=e8ece8&sideNums=e8ece8">
+  <img alt="streak" src="https://streak-stats.demolab.com?user=oxpoe&hide_border=true&background=0f0a1a&stroke=2a1152&ring=c77dff&fire=ff6ec7&currStreakLabel=7cffcb&sideLabels=ece6ff&dates=a99fc4&currStreakNum=ece6ff&sideNums=ece6ff">
 </a>
 
 <img alt="contribution snake" src="https://raw.githubusercontent.com/oxpoe/oxpoe/output/snake.svg">
 
-<p><sub>❤ If something I built saved you time: <a href="https://donasi.oxpoe.qzz.io/">donasi.oxpoe.qzz.io</a></sub></p>
+<img src="assets/divider.png" width="100%">
+
+<p><sub>❤ If something I built saved you time, the dream runs on coffee:</sub></p>
+<p><a href="https://donasi.oxpoe.qzz.io/"><img alt="donate" src="https://img.shields.io/badge/%E2%9D%A4%20donasi.oxpoe.qzz.io-ff6ec7?style=for-the-badge&labelColor=0f0a1a"></a></p>
 
 </div>
