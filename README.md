@@ -52,28 +52,28 @@ panel's HID protocol from that app and rebuilt the useful half for Linux: a
 dependency-free sender streaming the exact 65-byte report the firmware reads, plus an
 animated tray app with fan/temperature pickers, systemd autostart and plug & play.
 
-<a href="https://github.com/oxpoe/Gamemax-linux-apps">
-  <img src="https://raw.githubusercontent.com/oxpoe/Gamemax-linux-apps/main/assets/social-preview.png" alt="GAMEMAX LCD" width="100%">
+<a href="https://gitea.oxpoe.qzz.io/oxpoe/Gamemax-linux-apps">
+  <img src="https://gitea.oxpoe.qzz.io/oxpoe/Gamemax-linux-apps/raw/branch/main/assets/social-preview.png" alt="GAMEMAX LCD" width="100%">
 </a>
 
-[**Repository**](https://github.com/oxpoe/Gamemax-linux-apps) ·
-[**Releases**](https://github.com/oxpoe/Gamemax-linux-apps/releases) ·
-[**Reverse-engineering notes**](https://github.com/oxpoe/Gamemax-linux-apps/blob/main/docs/reverse-engineering.md)
+[**Repository**](https://gitea.oxpoe.qzz.io/oxpoe/Gamemax-linux-apps) ·
+[**Releases**](https://gitea.oxpoe.qzz.io/oxpoe/Gamemax-linux-apps/releases) ·
+[**Reverse-engineering notes**](https://gitea.oxpoe.qzz.io/oxpoe/Gamemax-linux-apps/src/branch/main/docs/reverse-engineering.md)
 
 <div align="center">
 
-<a href="https://github.com/oxpoe">
+<a href="https://gitea.oxpoe.qzz.io/oxpoe">
   <img height="160" alt="stats" src="https://github-readme-stats.vercel.app/api?username=oxpoe&show_icons=true&hide_border=true&bg_color=0f0a1a&title_color=c77dff&icon_color=7cffcb&text_color=ece6ff&include_all_commits=true&rank_icon=github">
 </a>
-<a href="https://github.com/oxpoe">
+<a href="https://gitea.oxpoe.qzz.io/oxpoe">
   <img height="160" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oxpoe&layout=compact&hide_border=true&bg_color=0f0a1a&title_color=c77dff&text_color=ece6ff&langs_count=6">
 </a>
 
-<a href="https://github.com/oxpoe">
+<a href="https://gitea.oxpoe.qzz.io/oxpoe">
   <img alt="streak" src="https://streak-stats.demolab.com?user=oxpoe&hide_border=true&background=0f0a1a&stroke=2a1152&ring=c77dff&fire=ff6ec7&currStreakLabel=7cffcb&sideLabels=ece6ff&dates=a99fc4&currStreakNum=ece6ff&sideNums=ece6ff">
 </a>
 
-<img alt="contribution snake" src="https://raw.githubusercontent.com/oxpoe/oxpoe/output/snake.svg">
+<img alt="contribution snake" src="https://gitea.oxpoe.qzz.io/oxpoe/oxpoe/raw/branch/output/snake.svg">
 
 <img src="assets/divider.png" width="100%">
 

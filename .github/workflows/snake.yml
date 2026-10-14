@@ -20,9 +20,16 @@ jobs:
           outputs: |
             dist/snake.svg?palette=github-dark&color_snake=%23c77dff&color_dots=%23161022,%232a1152,%236b3fa0,%237cffcb,%23c77dff
             dist/snake.gif?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
+      - uses: actions/checkout@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ref: output
+          path: out
+      - name: Commit snake ke branch output
+        run: |
+          cp -f dist/* out/
+          cd out
+          git config user.name  "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.gitea"
+          git add -A
+          git commit -m "snake: update" || { echo "tidak ada perubahan"; exit 0; }
+          git push
