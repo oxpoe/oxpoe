@@ -1,4 +1,4 @@
-> 🪞 **Mirror.** Repo asli & pengembangan ada di **Gitea**: https://gitea.oxpoe.qzz.io/oxpoe/oxpoe
+> 🪞 **Mirror.** Repo asli, pengembangan & **rilis/unduhan** ada di **Gitea**: https://gitea.oxpoe.qzz.io/oxpoe/oxpoe/releases · GitHub hanya cermin kode.
 
 <div align="center">
 
