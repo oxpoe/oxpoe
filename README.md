@@ -1,3 +1,5 @@
+> 🪞 **Mirror.** Repo asli & pengembangan ada di **Gitea**: https://gitea.oxpoe.qzz.io/oxpoe/oxpoe
+
 <div align="center">
 
 <img src="assets/surreal-banner.png" width="100%" alt="oxpoe — surrealist by design">
